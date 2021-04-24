@@ -7,7 +7,7 @@ class Stack {
     }
     remove() {
         if(this.stack.length) {
-            this.stack.pop()
+            return this.stack.pop()
         }
     }
 }

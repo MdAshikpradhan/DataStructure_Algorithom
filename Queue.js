@@ -5,7 +5,7 @@ class Queue {
         this.queue = [];
     }
     enqueue(item) {
-        this.queue.push(item);
+         this.queue.push(item);
     }
     dequeue() {
         if(this.queue.length) {
@@ -21,10 +21,8 @@ brothers.enqueue('Mahim')
 brothers.enqueue('Sidan')
 brothers.enqueue('Shakin')
 
-console.log(brothers.queue)
+console.log(brothers.queue);
 
 const removeBrother = brothers.dequeue();
 
-console.log(removeBrother)
-
-console.log(brothers.queue);
+console.log(removeBrother);
